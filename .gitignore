@@ -64,3 +64,8 @@ gemini-debug.log
 evals/logs/
 
 temp_agents/
+
+# Long-context eval curation pipeline outputs (generated, not committed)
+evals/datasets/curation/output/*.json
+evals/datasets/curation/__pycache__/
+evals/datasets/curation/.venv/
